@@ -4,46 +4,51 @@
         <link rel="stylesheet" href="css/main.css" />
     </head>
     <body>
-                                  
-<div class="container py-3">
+  <div class="overlay">                    
+    <div class="container py-3">
+  
+  
 
-    <div class="from-group ">
+    <div class="from-group py-3">
         <label>employeeName</label>
         <input id="employeeName" class="form-control">
     </div>
-    <div class="from-group">
+    <div class="from-group py-3">
             <label>employeePhone</label>
             <input id="employeePhone" class="form-control">
         </div>
-         <div class="from-group">
+         <div class="from-group py-3">
                 <label>employeeAge</label>
                 <input id="employeeAge" class="form-control">
             </div>
-            <div class="from-group">
+            <div class="from-group py-3">
                     <label>employeeTitle</label>
                     <input id="employeeTitle" class="form-control">
                 </div>
-                <button id="btnClick" class=" btn btn-danger float-right my-3" > add</button>
+                <button id="btnClick" class=" btn btn-dark float-right py-2" > add</button>
                 <button id="btnUpdate" class=" btn btn-outline-warning float-right my-3" > updata</button>
                 <div class="clearfix"></div>
 
-</div>
-<div class="container py-3">
-        <input onkeyup="searchEmps(this.value)" placeholder="search" class="form-control my-3">
+     </div>
+
+
+
+    <div class="container py-3">
+        <input onkeyup="searchEmps(this.value)" placeholder="search" class="form-control my-auto">
 <div class="row"  id="rowsData">
    
     
 </div>
 
 
-</div>
+    </div>
 
 
 
                   
 
 
-
+</div>
 
 <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>

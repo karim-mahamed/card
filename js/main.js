@@ -62,11 +62,11 @@ else{
     <div class="data">
         <img src="images/bg-img/12.jpg " class="img-fluid">
         <h2>`+empolyeesCont[i].employeeName+`</h2>
-        <h3>`+empolyeesCont[i].employeePhone+`</h3>
+        <h4>`+empolyeesCont[i].employeePhone+`</h3>
         <span>`+empolyeesCont[i].employeeAge+`</span>
         <span class="badge badge-primary">`+empolyeesCont[i].employeeTitle+`</span>
-        <button onclick="deleteDate(`+i+`)" class="btn btn-danger"> delete</button>
-         <button onclick="editDate(`+i+`)" class="btn  btn-info"> edit</button>
+        <button onclick="deleteDate(`+i+`)" class="btn btn-outline-danger"> delete</button>
+         <button onclick="editDate(`+i+`)" class="btn  btn-outline-info"> edit</button>
     </div>
 </div>`
 
@@ -122,7 +122,7 @@ function upDate(){
         <h3>`+empolyeesCont[i].employeePhone+`</h3>
         <span>`+empolyeesCont[i].employeeAge+`</span>
         <span class="badge badge-primary">`+empolyeesCont[i].employeeTitle+`</span>
-        <button onclick="deleteDate(`+i+`)" class="btn btn-danger"> delete</button>
+        <button onclick="deleteDate(`+i+`)" class="btn btn-outline-danger"> delete</button>
     </div>
 </div>`
 document.getElementById("rowsData").innerHTML=rows
